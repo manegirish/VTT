@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_toolbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:contentInsetEnd="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+    android:elevation="0dp"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    tools:context=".MainActivity"
+    tools:targetApi="lollipop">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/activity_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:gravity="start|center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
